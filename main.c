@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "splitline.h"
+#include <splitline.h>
 
 int main(void)
 {
