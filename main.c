@@ -9,8 +9,7 @@ int main(void)
 	int fields;
 	int itr;
 
-	char src[] = "0x12:0x34:0x56\t";
-	src[ strlen(src) -1 ] = '\0';
+	char src[] = "0x12:0x345:0x678"; // example string to split
 
 	strs = splitline(src, ':', &fields);
 

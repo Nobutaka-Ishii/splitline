@@ -26,6 +26,7 @@ char** splitline(char* original, char delim, int* fields)
 
 	for( itr = 0; itr < (*fields) +1 ; itr++){
 		strs[itr] = (char*)malloc(sizeof(char) * LENGTH);
+		memset(strs[itr], 0, LENGTH);
 	}
 
 	for (itr = 0; itr < (*fields); itr++){
